@@ -1,4 +1,4 @@
-# EXCEL轉檔CSV方法，，解決日文亂碼問題
+# EXCEL轉檔日文CSV方法
 
 csv，是一種逗點分隔形式的文字檔。比方說在excel中一個表格長這樣。
 
@@ -48,16 +48,16 @@ BUT!!
 
 ②`Ctrl`+`A`全選，格式改為「文字」，存檔，關閉excel。
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94CSV%E6%96%B9%E6%B3%95/01.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94%E6%97%A5%E6%96%87CSV%E6%96%B9%E6%B3%95/01.png)
 
 ③找到剛剛存好的xlsx檔案，按右鍵「開啟檔案」，「選擇其他應用程式」，「Access」
 
 ④出現這個視窗。甚麼都不要設定一直按「下一步」，「完成」
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94CSV%E6%96%B9%E6%B3%95/02.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94%E6%97%A5%E6%96%87CSV%E6%96%B9%E6%B3%95/02.png)
 
 ⑤點選標籤「外部資料」，「匯出－文字檔」 【快速鍵：`Alt` + `X` + `T`】
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94CSV%E6%96%B9%E6%B3%95/03.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94%E6%97%A5%E6%96%87CSV%E6%96%B9%E6%B3%95/03.png)
 
 ⑥接著出現匯出視窗，指定好儲存位置後按確定（中間的指定匯出選項不用勾）
 
@@ -66,7 +66,7 @@ BUT!!
 ⑧語言選「全部」，字碼頁選「日文(Shift-JIS)」  
 確認最上面的欄位分隔符號是`,`，文字辨識符號是`"`
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94CSV%E6%96%B9%E6%B3%95/04.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/EXCEL%E8%BD%89%E6%AA%94%E6%97%A5%E6%96%87CSV%E6%96%B9%E6%B3%95/04.png)
 
 ⑨然後一直按下一步按到完成，結束，關掉Access，接著用excel確認看看剛剛做好的檔案
 
