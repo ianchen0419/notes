@@ -37,3 +37,14 @@ sudo n 12.0.0
 這個地方不好找，以下說明具體的尋找方式，先開一個Finder出來
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/node版本管理工具/01.png)
 
+然後，點選上方選單的「前往」，再選「前往檔案夾」
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/node版本管理工具/02.png)
+
+然後，在檔案夾路徑輸入`/usr/local/n/versions/`
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/node版本管理工具/03.png)
+
+按下「前往」，就能到達該資料夾了
+
+
+
+
