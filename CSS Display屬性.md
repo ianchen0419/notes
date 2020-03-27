@@ -10,7 +10,7 @@
   * `margin`：支援
   * `padding`：支援 
 
-```jade
+```pug
 div block
 div block
 div block
@@ -37,7 +37,7 @@ div block
   * `margin`：僅支援`margin-left`、`margin-right`
   * `padding`：僅支援`padding-left`、`padding-right`
 
-```jade
+```pug
 div inline
 div inline
 div inline
@@ -64,7 +64,7 @@ div
   * `margin`：支援
   * `padding`：支援
 
-```jade
+```pug
 div inline-block
 div inline-block
 div inline-block
