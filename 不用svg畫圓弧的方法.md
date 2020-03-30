@@ -4,51 +4,51 @@
 
 ```pug
 .outer
-	.sq1
-	.sq2
-	.inner
-		.num 75%
+ .sq1
+ .sq2
+ .inner
+  .num 75%
 ```
 
 ```sass
 .outer
-	width: 150px
-	height: 150px
-	background: #c1d7ae
-	border-radius: 100%
-	position: relative
-	overflow: hidden
+ width: 150px
+ height: 150px
+ background: #c1d7ae
+ border-radius: 100%
+ position: relative
+ overflow: hidden
 
 .sq1
-	width: 150px
-	height: 150px
-	position: absolute
-	left: 75px
-	background-color: #90a955
+ width: 150px
+ height: 150px
+ position: absolute
+ left: 75px
+ background-color: #90a955
  
 .sq2
-	width: 75px
-	height: 75px
-	position: absolute
-	top: 75px
-	background-color: #90a955
+ width: 75px
+ height: 75px
+ position: absolute
+ top: 75px
+ background-color: #90a955
 
 .inner
-	width: 140px
-	height: 140px
-	border-radius: 100%
-	position: absolute
-	top: 5px
-	left: 5px
-	background-color: white
+ width: 140px
+ height: 140px
+ border-radius: 100%
+ position: absolute
+ top: 5px
+ left: 5px
+ background-color: white
 
 .num
-	text-align: center
-	line-height: 140px
-	font-size: 40px
-	font-weight: 300
-	color: #6A7152
-	display: block
+ text-align: center
+ line-height: 140px
+ font-size: 40px
+ font-weight: 300
+ color: #6A7152
+ display: block
 ```
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/不用svg畫圓弧的方法/01.png)
@@ -57,61 +57,52 @@
 
 ```pug
 .outer
-	.sq1
-	.sq2
-	.sq3
-	.inner
-		.num 90%
-```
-
-```sass
-.outer
-	width: 150px
-	height: 150px
-	background: #c1d7ae
-	border-radius: 100%
-	position: relative
-	overflow: hidden
+ width: 150px
+ height: 150px
+ background: #c1d7ae
+ border-radius: 100%
+ position: relative
+ overflow: hidden
 
 .sq1
-	width: 150px
-	height: 150px
-	position: absolute
-	left: 75px
-	background-color: #90a955
+ width: 150px
+ height: 150px
+ position: absolute
+ left: 75px
+ background-color: #90a955
  
 .sq2
-	width: 75px
-	height: 75px
-	position: absolute
-	top: 75px
-	background-color: #90a955
+ width: 75px
+ height: 75px
+ position: absolute
+ top: 75px
+ background-color: #90a955
 
 .sq3
-	width: 75px
-	height: 75px
-	position: absolute
-	top: 0
-	background-color: #90a955
-	transform: skewX(-36deg)
-	transform-origin: bottom
+ width: 75px
+ height: 75px
+ position: absolute
+ top: 0
+ background-color: #90a955
+ transform: skewX(-36deg)
+ transform-origin: bottom
 
 .inner
-	width: 140px
-	height: 140px
-	border-radius: 100%
-	position: absolute
-	top: 5px
-	left: 5px
-	background-color: white
+ width: 140px
+ height: 140px
+ border-radius: 100%
+ position: absolute
+ top: 5px
+ left: 5px
+ background-color: white
 
 .num
-	text-align: center
-	line-height: 140px
-	font-size: 40px
-	font-weight: 300
-	color: #6A7152
-	display: block
+ text-align: center
+ line-height: 140px
+ font-size: 40px
+ font-weight: 300
+ color: #6A7152
+ display: block
 ```
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/不用svg畫圓弧的方法/02.png)
