@@ -19,11 +19,11 @@ div block
 ```
 
 ```sass
- div
-	border: 1px solid #000
-	display: block
-	height: 50px
-	margin: 10px 20px
+div
+ border: 1px solid #000
+ display: block
+ height: 50px
+ margin: 10px 20px
 ```
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/CSS%20Display屬性/01.png)
@@ -47,10 +47,10 @@ div inline
 
 ```sass
 div
-	border: 1px solid #000
-	display: inline
-	height: 50px
-	margin: 10px 20px
+ border: 1px solid #000
+ display: inline
+ height: 50px
+ margin: 10px 20px
 ```
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/CSS%20Display屬性/02.png)
 
@@ -74,10 +74,10 @@ div inline-block
 
 ```sass
 div
-	border: 1px solid #000
-	display: inline-block
-	height: 50px
-	margin: 10px 20px
+ border: 1px solid #000
+ display: inline-block
+ height: 50px
+ margin: 10px 20px
 ```
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/CSS%20Display屬性/03.png)
