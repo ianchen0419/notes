@@ -59,7 +59,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/02.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/02.gif)
 
 ## group
 
@@ -87,7 +87,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/03.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/03.gif)
 
 ## begin
 
@@ -116,5 +116,5 @@ svg
  border: 1px solid #000
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/04.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/04.gif)
 
