@@ -32,7 +32,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/01.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/01.gif)
 
 ## `animateTransform`變形動畫
 
