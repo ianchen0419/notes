@@ -32,7 +32,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/01.svg)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/01.png)
 
 ## `animateTransform`變形動畫
 
@@ -59,7 +59,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/02.svg)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/02.png)
 
 ## group
 
@@ -87,7 +87,7 @@ svg
   fill: #fff
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/03.svg)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/03.png)
 
 ## begin
 
@@ -116,5 +116,5 @@ svg
  border: 1px solid #000
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/04.svg)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG%20animate/04.png)
 
