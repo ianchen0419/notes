@@ -145,6 +145,6 @@ body
  font-size: 0
 ```
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/inline-block排滿後會產生的空隙/05.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/inline-block排滿後會產生的空隙/06.png)
 
 經過以上設定後，兩個item終於能排在一起了
