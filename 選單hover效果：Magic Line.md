@@ -4,7 +4,7 @@
 
 這是一個選單的hover特效，本來底線會放在現在訪問的那一頁的選單項目之下，當滑鼠碰到某個其他項目時，那條底線就會滑過去
 
-![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/選單hover效果：Magic%20Line/01.png)
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/選單hover效果：Magic%20Line/01.gif)
 
 ## 做法詳解
 
