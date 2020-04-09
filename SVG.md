@@ -101,6 +101,28 @@ svg(viewbox="0 0 100 100" width="300" height="300")
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG/06.png)
 
+##文字的中心線
+
+仔細看上圖，雖然`x`與`y`都設定了中心點的值，但是描繪出來的文字看起來還是偏一邊  
+這是因為，`<text>`的中心線預設位在右下方，所以他是以右下方等於(`x`, `y`)為基準來描繪文字
+
+我們可以透過`dominant-baseline`與`text-anchor`來重新定義`<text>`的垂直/水平中心線
+
+```pug
+svg(viewbox="0 0 100 100" width="300" height="300")
+ text(x=50 y=50) 文字
+```
+
+```sass
+svg
+ border: 1px solid #000
+ text
+  dominant-baseline: middle
+  text-anchor: middle
+```
+
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG/07.png)
+
 ## 存成svg檔案
 
 * 確認`width`、`height`有寫在`<svg>`裡面
