@@ -72,3 +72,68 @@ if(innerWidth<=768){
 當然，如果搞剛的話，也可以加上`resize`事件，讓畫面一動到尺寸就重新渲染JavaScript。
 但基於使用者（基本上）不會亂切尺寸，所以本例就沒有加工了。
 
+## Media Query的三種寫法
+
+### ⑴ 直接寫在CSS內
+
+最常見的方法就是直接寫在CSS內，但這樣做CSS的易讀性會很差
+
+```sass
+@media (max-width: 768px)
+ body
+  background: pink
+```
+
+### ⑵ <link>外連
+
+`<link>`也能指定Media Query，讓只符合某些Media條件下時，才能連到某特定CSS檔案
+
+```html
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
+```
+
+```sass
+body
+ background: pink
+```
+
+### ⑶ import引入
+
+`import`法適用於複雜的Media寬度指定，比方說寫了好幾個版本的RWD：iPad直版、iPhone SE版、iPhone X版、iPad橫板…  
+Media條件太多時，全部寫進CSS會很亂，都寫到`<link>`裡面也會落落長  
+所以最好就是寫進一隻`index.css`裡面進行指定
+
+|CSS檔案名|用途|
+|--------|---|
+|`style.css`|一般的樣式|
+|`index.css`|索引CSS（只用來寫`import`）|
+|`mobile.css`|手機版樣式|
+
+#### STEP① HTML
+
+寫`import`的時候，`<link>`指派的順序相當重要
+必須要把`index.css`放到最末位
+
+```html
+<link rel="stylesheet prefetch" href="style.css" />
+<link rel="stylesheet prefetch" href="index.css" />
+```
+
+#### STEP② 索引CSS
+
+`index.css`只能用來寫各種`import`，沒辦法寫一般的CSS樣式
+如果寫的CSS樣式的話，`import`的效力就會消失
+
+```css
+@import url(mobile.css) screen and (max-width: 768px);
+```
+
+#### STEP③ 手機版CSS
+
+```css
+body {
+ background: pink;
+}
+```
+
+
