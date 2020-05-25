@@ -40,6 +40,61 @@ CREATE TABLE newsheet2(
  weight INT
 )
 ```
+
+### 塞資料進去
+
+在資料表`newsheet`塞一筆資料進去
+
+|欄位|值|
+|----|---|
+|`name`|apple|
+|`price`|100|
+|`weight`|12|
+
+
+```MySQL
+INSERT INTO newsheet(name, price, weight) VALUES ('apple', 100, 12)
+```
+
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/MySQL%20基本知識/05.png)
+
+### 刪資料
+
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/MySQL%20基本知識/06.png)
+
+要把`name="badbad"`這筆資料刪掉
+
+```MySQL
+DELETE FROM newsheet WHERE name="badbad"
+```
+
+### 撈資料
+
+```MySQL
+SELECT * FROM newsheet WHERE name="apple"
+```
+
+`SELECT`後面接要搜尋的「資料欄位」，`*`代表全部欄位    
+`WHERE`後面接搜尋條件，可省略
+
+```MySQL
+SELECT * FROM newsheet WHERE name="apple" AND price=100
+```
+
+多條件篩選，關鍵字意涵請參考下表
+
+|關鍵字|意思|
+|----|---|
+|`AND`|且|
+|`OR`|或|
+|`BETWEEN` ★★★ `AND` ☆☆☆|指定區間|
+
+### 更新（修改）資料
+
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/MySQL%20基本知識/07.png)
+
+要把`banana`的價格改成`500`
+
+```MySQL
+UPDATE newsheet SET price=500 WHERE name="banana"
+```
