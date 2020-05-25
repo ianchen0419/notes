@@ -111,7 +111,6 @@ while($row=mysqli_fetch_array($re)){
 
 ```
 "SELECT * FROM mylist WHERE name='$_GET[name]'"
-
 ```
 
 水果店今天要做查價網頁，使用者在網頁輸入水果名，系統回傳價格
