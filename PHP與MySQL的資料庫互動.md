@@ -50,7 +50,7 @@ $re=mysqli_query($connect, 'SELECT * FROM mylist');
 
 ### ⑵ 回傳資料處理 `mysqli_fetch_array()`
 
-`mysqli_fetch_array()`在沒寫迴圈下只會回傳第一筆符合條件的資料
+`mysqli_fetch_array()`在沒寫迴圈下只會回傳第一筆符合條件的資料    
 所以搭配`while`迴圈，只要條件符合，就會一筆筆將資料丟出來
 
 ```php
@@ -194,7 +194,7 @@ SELECT * FROM mylist WHERE name='' OR '1'='1'
 
 ## 隱碼注入對策 `mysqli_escape_string()`
 
-`mysqli_escape_string()`可以讓值變成**不具程式碼效力的普通字串**
+`mysqli_escape_string()`可以讓值變成**不具程式碼效力的普通字串**    
 因此建議掛在任何使用者輸入的內容上，以防止被駭客攻擊
 
 
