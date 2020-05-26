@@ -10,6 +10,9 @@
 echo phpinfo();
 ```
 
+![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/php除錯模式display_errors/01.png)
+
+
 在網頁中尋找`display_errors`這一項，狀態為`On`表示已開啟噴錯模式，狀態為`Off`代表關閉噴錯模式
 
 ## 修改php.ini設定檔
