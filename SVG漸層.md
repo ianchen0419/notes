@@ -90,6 +90,8 @@ svg(viewbox="-50 -50 100 100" width="500")
 
 ### `objectBoundingBox` （預設值）
 
+`gradientUnits=objectBoundingBox` 只針對生效物件畫
+
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/SVG漸層/06.png)
 
 ```pug
