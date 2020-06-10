@@ -54,16 +54,16 @@
 
 依照上圖設定輸入
 
-|欄位|填值|
-|----|---|
-|Enable Virtual Server Rules|打勾|
-|Name|隨意取名|
-|Interface|選`WAN1_2`|
-|Internal startport|選`80`|
-|Internal endport|選`80`|
-|External startport|選`80`|
-|External endport|選`80`|
-|Protocol Type|選`Both`|
+|欄位							|填值		|
+|-------------------------------|-----------|
+|Enable Virtual Server Rules	|打勾		|
+|Name							|隨意取名		|
+|Interface						|選`WAN1_2`	|
+|Internal startport				|選`80`		|
+|Internal endport				|選`80`		|
+|External startport				|選`80`		|
+|External endport				|選`80`		|
+|Protocol Type					|選`Both`	|
 
 ## 大功告成
 

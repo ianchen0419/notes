@@ -103,11 +103,11 @@ body
 Media條件太多時，全部寫進CSS會很亂，都寫到`<link>`裡面也會落落長  
 所以最好就是寫進一隻`index.css`裡面進行指定
 
-|CSS檔案名|用途|
-|--------|---|
-|`style.css`|一般的樣式|
-|`index.css`|索引CSS（只用來寫`import`）|
-|`mobile.css`|手機版樣式|
+|CSS檔案名		|用途						|
+|---------------|---------------------------|
+|`style.css`	|一般的樣式					|
+|`index.css`	|索引CSS（只用來寫`import`）	|
+|`mobile.css`	|手機版樣式					|
 
 #### STEP① HTML
 
