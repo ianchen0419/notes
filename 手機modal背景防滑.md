@@ -49,7 +49,7 @@ body
 `html`與`body`的`margin: 0`是為了解除原生賦予的外距（他會造成一點點的空間可以滑）。    
 
 精髓是從`html`到`body`，再到`.content-area`的父子三層都套上`height: 100%`
-這樣設定後原本在手機端失效的`overflow: hidden`就便有效了（雖然還要搭配`-webkit-overflow-scrolling: auto`使用）
+這樣設定後原本在手機端失效的`overflow: hidden`就變有效了（雖然還要搭配`-webkit-overflow-scrolling: auto`使用）
 
 ![](https://raw.githubusercontent.com/ianchen0419/notes/master/img/手機modal背景防滑/02.gif)
 
@@ -90,7 +90,7 @@ body
  // -webkit-overflow-scrolling: auto
 
 .content-wrapper
- height; 100%
+ height: 100%
  overflow: scroll
  
 .no-scroll .content-wrapper
